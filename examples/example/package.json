@@ -1,0 +1,16 @@
+{
+  "name": "mocha-jasmine-clone-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:demo": "node test/demo.test.js",
+    "test:timeout": "node test/timeout-env.test.js",
+    "test:long-timeout": "node test/long-timeout-env.test.js",
+    "test:gap-timeout": "node test/gap-timeout-env.test.js",
+    "test": "node test/demo.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

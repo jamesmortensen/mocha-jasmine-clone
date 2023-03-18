@@ -1,0 +1,19 @@
+{
+  "name": "mocha-jasmine-clone-example-with-mocha",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:demo": "mocha test/demo.test.js --timeout 4000",
+    "test:timeout": "mocha test/timeout-env.test.js --timeout 4000",
+    "test:long-timeout": "mocha test/long-timeout-env.test.js --timeout 4000",
+    "test:gap-timeout": "mocha test/gap-timeout-env.test.js --timeout 4000",
+    "test": "mocha test/demo.test.js --timeout 4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
