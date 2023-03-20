@@ -21,7 +21,7 @@ function it(title, testCaseFn) {
 
 
     // this is kind of like what "Mocha" is doing. It is only giving the 
-    // "testcase" 8 seconds to complete. If it doesn't complete in 8 seconds, 
+    // "testcase" 4 seconds to complete. If it doesn't complete in 4 seconds, 
     // it stops the execution and theows the "Timeout” error.
     if (isAsyncFunction(testCaseFn))
         testcase.timeoutCode = setTimeout(() => {
