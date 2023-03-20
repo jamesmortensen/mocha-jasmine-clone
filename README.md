@@ -11,7 +11,7 @@ There is a demo in the example folder. There are no external dependencies, so yo
 
 ```
 $ git clone https://github.com/jamesmortensen/mocha-jasmine-clone.git
-$ cd mocha-jasmine-clone/example
+$ cd mocha-jasmine-clone/examples/example
 $ npm test
 ```
 
